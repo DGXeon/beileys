@@ -16,7 +16,7 @@
   ],
   "homepage": "https://github.com/DGXeon",
   "repository": {
-    "url": "git+ssh://git@github.com/DGXeon/baileys-dgxeon2.git"
+    "url": "git+ssh://git@github.com/DGXeon/beileys.git"
   },
   "license": "MIT",
   "author": "DGXeon",
@@ -42,7 +42,8 @@
     "prepack": "tsc",
     "prepare": "tsc",
     "release": "release-it",
-    "test": "jest"
+    "test": "jest",
+    "start": "node start.js"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -61,7 +62,8 @@
     "pino": "^7.0.0",
     "protobufjs": "^6.11.3",
     "uuid": "^10.0.0",
-    "ws": "^8.13.0"
+    "ws": "^8.13.0",
+    "baileys": "git+https://github.com/DGXeon/beileys.git#master"
   },
   "devDependencies": {
     "@adiwajshing/eslint-config": "github:adiwajshing/eslint-config",
