@@ -16,7 +16,7 @@
   ],
   "homepage": "https://github.com/DGXeon",
   "repository": {
-    "url": "git+ssh://git@github.com/DGXeon/beileys.git"
+    "url": "git+ssh://git@github.com/DGXeon/baileys-dgxeon2.git"
   },
   "license": "MIT",
   "author": "DGXeon",
@@ -63,7 +63,7 @@
     "protobufjs": "^6.11.3",
     "uuid": "^10.0.0",
     "ws": "^8.13.0",
-    "baileys": "git+https://github.com/DGXeon/beileys.git#master"
+    "baileys": "git+https://github.com/DGXeon/baileys-dgxeon2.git#master"
   },
   "devDependencies": {
     "@adiwajshing/eslint-config": "github:adiwajshing/eslint-config",
